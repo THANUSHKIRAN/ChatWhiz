@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: chatwhiz
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: chatwhiz
+  template:
+    metadata:
+      labels:
+        app: chatwhiz
+    spec:
+      containers:
+      - name: chatwhiz
+        image: thanushkiran12/chatwhiz:latest
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
+        ports:
+        - containerPort: 7860
