@@ -69,4 +69,4 @@ Set up your Git repository as the source of truth for Argo CD, containing the Ku
 
 ## ChatWhiz Application
 
-<img width="1070" alt="Screenshot 2023-06-06 204432" src="https://github.com/THANUSHKIRAN/ChatWhiz/assets/53527645/9aa55918-ea34-4227-b2ec-2bbc9368a79c">
+<img width="1070" alt="Screenshot 2023-06-06 204432" src="https://github.com/THANUSHKIRAN/ChatWhiz/assets/53527645/7e7df9bd-8588-42fd-a73a-f2f979e53c9d">
